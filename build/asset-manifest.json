@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/honest-front-assignment-react/static/css/main.0a6b05ef.css",
-    "main.js": "/honest-front-assignment-react/static/js/main.8cef9944.js",
+    "main.js": "/honest-front-assignment-react/static/js/main.882debec.js",
     "index.html": "/honest-front-assignment-react/index.html",
     "main.0a6b05ef.css.map": "/honest-front-assignment-react/static/css/main.0a6b05ef.css.map",
-    "main.8cef9944.js.map": "/honest-front-assignment-react/static/js/main.8cef9944.js.map"
+    "main.882debec.js.map": "/honest-front-assignment-react/static/js/main.882debec.js.map"
   },
   "entrypoints": [
     "static/css/main.0a6b05ef.css",
-    "static/js/main.8cef9944.js"
+    "static/js/main.882debec.js"
   ]
 }
