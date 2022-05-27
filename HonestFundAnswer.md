@@ -1,11 +1,12 @@
-### 1. 다음과 같은 코드가 있습니다. 코드의 실행 순서를 설명해주세요. 그리고 실행 순서가 왜 그렇게 되는지, 자바스크립트 이벤트 루프 시스템을 통해 설명해주세요.
+1. 다음과 같은 코드가 있습니다. 코드의 실행 순서를 설명해주세요.  
+   그리고 실행 순서가 왜 그렇게 되는지, 자바스크립트 이벤트 루프 시스템을 통해 설명해주세요.
 
 ```javascript
 function noonChiGame() {
-  console.log("김어펀 하나");
-  console.log("이어펀 둘");
-  window.setTimeout(() => console.log("박어펀 둘"), 0);
-  console.log("최어펀 셋");
+  console.log('김어펀 하나');
+  console.log('이어펀 둘');
+  window.setTimeout(() => console.log('박어펀 둘'), 0);
+  console.log('최어펀 셋');
 }
 
 noonChiGame();
@@ -44,12 +45,12 @@ function modifyUserInfoObj(userInfoObj) {
    * 이를 방지하기 위해 스프레드 문법을 통해 객체 내부의 값을 복사해 만든 새로운 객체를 참조한다.
    */
   const modifiedUserInfoObj = { ...userInfoObj };
-  modifiedUserInfoObj.name = "박어펀";
+  modifiedUserInfoObj.name = '박어펀';
   modifiedUserInfoObj.age = 25;
   return modifiedUserInfoObj;
 }
 
-const userInfoObj = { name: "김어펀", age: 30, job: "frontend engineer" };
+const userInfoObj = { name: '김어펀', age: 30, job: 'frontend engineer' };
 const modifiedUserInfoObj = modifyUserInfoObj(userInfoObj);
 
 console.log(userInfoObj, modifiedUserInfoObj);

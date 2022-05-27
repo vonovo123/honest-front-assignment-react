@@ -1,4 +1,4 @@
-const PROXY_URL = 'https://thingproxy.freeboard.io/fetch/';
+const PROXY_URL = 'https://vonovo123-cors-proxy-server.herokuapp.com/';
 const BASE_URL = 'https://interview.honestfund.kr';
 const fetchData = async (type, payLoad) => {
   try {
