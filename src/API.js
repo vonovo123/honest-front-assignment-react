@@ -1,6 +1,7 @@
+const BASE_URL = 'https://interview.honestfund.kr';
 const fetchData = async (type, payLoad) => {
   try {
-    const result = await fetch(`/tech/frontend/personal/${type}`, {
+    const result = await fetch(BASE_URL + `/tech/frontend/personal/${type}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
