@@ -1,13 +1,17 @@
+const PROXY_URL = 'https://thingproxy.freeboard.io/fetch/';
 const BASE_URL = 'https://interview.honestfund.kr';
 const fetchData = async (type, payLoad) => {
   try {
-    const result = await fetch(BASE_URL + `/tech/frontend/personal/${type}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payLoad),
-    });
+    const result = await fetch(
+      PROXY_URL + BASE_URL + `/tech/frontend/personal/${type}`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payLoad),
+      }
+    );
     if (!result.ok) {
       const { error } = await result.json();
       if (error) {
