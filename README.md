@@ -1,5 +1,5 @@
 # 어니스트펀드 사전과제 (React)
-
+//"proxy": "https://interview.honestfund.kr",
 ## 과제 설명
 
 > 휴대전화 본인인증 페이지의 UI/UX 와 기능을 구현합니다.  
