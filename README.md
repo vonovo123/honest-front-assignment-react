@@ -19,5 +19,3 @@ yarn install 또는 npm install
 ```
 yarn start 또는 npm run start
 ```
-
-test
