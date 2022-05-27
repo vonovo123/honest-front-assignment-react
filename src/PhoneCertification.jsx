@@ -28,7 +28,7 @@ function PhoneCertification({
   useEffect(() => {
     if (!token) {
       alert('잘못된 접근입니다. 처음부터 다시 진행해주세요.');
-      goNavigtion('/');
+      goNavigtion('/identity-authentication');
     }
   }, []);
   useEffect(() => {
