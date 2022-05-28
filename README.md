@@ -2,7 +2,7 @@
 
 ```javascript
 /** 
- * 1. 다음과 같은 코드가 있습니다. 코드의 실행 순서를 설명해주세요.  
+ * 다음과 같은 코드가 있습니다. 코드의 실행 순서를 설명해주세요.  
    그리고 실행 순서가 왜 그렇게 되는지, 자바스크립트 이벤트 루프 시스템을 통해 설명해주세요.
 */
 
@@ -63,7 +63,7 @@ const modifiedUserInfoObj = modifyUserInfoObj(userInfoObj);
 console.log(userInfoObj, modifiedUserInfoObj);
 ```
 
-### 3
+### 3.
 
 ```javascript
 /**
@@ -90,4 +90,4 @@ async function fncAllUserInfo(userId) {
 
 ### 4.
 
-[데모페이지 URL](https://vonovo123.github.io/honest-front-assignment-react/identity-authentication)
+[구현과제 데모페이지 URL](https://vonovo123.github.io/honest-front-assignment-react/identity-authentication)
